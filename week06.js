@@ -73,6 +73,7 @@ function dateValidate(fieldID, errorID)
     }
 }
 
+var statePattern = /^(?:A[KLRZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEINOST]|N[CDEHJMVY]|O[HKR]|PA|RI|S[CD]|T[NX]|UT|V[AT]|W[AIVY])*$/;
 
 
 ageValidate('age1', 'ageError1');
